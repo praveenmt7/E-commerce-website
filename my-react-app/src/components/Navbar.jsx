@@ -485,7 +485,7 @@ import { useWishlist } from '../../src/Context/WishlistContext'; // Correctly im
 const HomePage = () => (
     <div className="p-8 text-center">
         <h1 className="text-3xl font-bold">Home Page</h1>
-        <p>Welcome to Shopverse!</p>
+        <p>Welcome to Shopversee!</p>
     </div>
 );
 const CartPage = () => (
