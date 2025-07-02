@@ -494,7 +494,10 @@ app.get('/api/contact', async (req, res) => {
     }
 });
 
-
+// Add this root route
+app.get('/', (req, res) => {
+  res.send('API is working!');
+});
 // ------------------------- START SERVER -------------------------
 
 const PORT = process.env.PORT || 3001;
